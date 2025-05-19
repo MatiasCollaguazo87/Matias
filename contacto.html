@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos y Ubicación</title>
+    <link rel="stylesheet" href="estilos-globales.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="container">
+            <div id="branding">
+                <a href="index.html"><img src="logohelados.png" alt=" "></a>
+                <h1>Tu Heladería</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">Nuestros Productos</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Contáctanos y Visítanos</h1>
+            <p>Lo esperamos.</p>
+
+            <section id="formulario-contacto">
+                <h2>Envíanos un Mensaje</h2>
+                <p>Contacta con nosotros.</p>
+                 <form action="procesar_formulario.php" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div>
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+
+                    <div>
+                        <label for="asunto">Asunto (Opcional):</label>
+                        <input type="text" id="asunto" name="asunto">
+                    </div>
+
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="button-primary">Enviar Mensaje</button>
+                 </form>
+            </section>
+
+             <section id="informacion-y-ubicacion">
+                 <div class="contact-info">
+                    <h2>Datos de Contacto</h2>
+                     <p>Contactanos tambien por:</p>
+                    <ul>
+                         <li><i class="fas fa-map-marker-alt"></i> Dirección: Quito, Guayllabamba, UEMSFQ</li>
+                         <li><i class="fas fa-phone"></i> Teléfono: <a href="tel:+NUMERO_TELEFONO">0981418478</a></li> 
+                         <li><i class="fas fa-envelope"></i> Correo: <a href="mailto:matiascollaguazo17k@gmail.com">matiascollaguazo17k@gmail.com</a></li>
+                     </ul>
+                     <p><strong>Horario de Atención:</strong>Lunes a Sábado de 10:00 a 20:00, Domingos Cerrado</p>
+                 </div>
+
+                 <div class="ubicacion-mapa">
+                     <h2>Encuéntranos en el Mapa</h2>
+                      <div class="map-container">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4539514773355!2d-78.35597565432545!3d-0.06432520760626545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58b8e006812e7%3A0xcb4779e0fe1d20f7!2sUnidad%20Educativa%20Municipal%20San%20Francisco%20de%20Quito!5e0!3m2!1ses-419!2sec!4v1747692703098!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                 </div>
+            </section>
+
+        </div>
+    </main>
+
+     <footer>
+         <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>© 2025 Tu Heladería. La mejor Heladeria</p>
+                    <p>Quito, Guayllabamba, UEMSFQ</p>
+                    <p>Teléfono: 0981418478</p>
+                    <p>Correo: <a href="mailto:matiascollaguazo17k@gmail.com">matiascollaguazo17k@gmail.com</a></p>
+                </div>
+                <div class="footer-links">
+                     <ul>
+                        <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos-servicio.html">Términos y Condiciones</a></li>
+                        <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                     </ul>
+                </div>
+                <div class="social-links">
+                    <a href=" " target="_blank"><img src="Tiktok.png" alt=" "></a>
+                    <a href=" " target="_blank"><img src="instagram.png" alt=" "></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+</body>
+</html>
